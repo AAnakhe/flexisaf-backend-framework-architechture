@@ -3,12 +3,11 @@ package com.flexisaf.task_manager.controller;
 import com.flexisaf.task_manager.model.Task;
 import com.flexisaf.task_manager.service.TaskService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/api/tasks")
 public class TaskController {
 
